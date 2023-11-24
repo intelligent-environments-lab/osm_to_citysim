@@ -1,0 +1,80 @@
+BEFORE_2000:
+  WALL:
+    Plywood:
+      THICKNESS: 0.0127
+      CONDUCTIVITY: 0.1154
+      CP: 1214
+      U_VALUE: 0.5202
+    Insulation:
+      THICKNESS: 0.07
+      CONDUCTIVITY: 0.0394
+      CP: 800
+      U_VALUE: 0.5202
+    Gyp_Board:
+      THICKNESS: 0.006
+      CONDUCTIVITY: 0.1677
+      CP: 1089
+      U_VALUE: 0.5202
+  GLAZING_CASE:
+    U_VALUE: 4.8
+    G_VALUE: 0.45
+AFTER_2000:
+  WALL:
+    Timber_Siding:
+      THICKNESS: 0.13
+      CONDUCTIVITY: 0.14
+      CP: 523
+      U_VALUE: 0.4263
+    Glass_Wool:
+      THICKNESS: 0.036
+      CONDUCTIVITY: 0.036
+      CP: 840
+      U_VALUE: 0.4263
+    Sheathing:
+      THICKNESS: 0.022
+      CONDUCTIVITY: 0.022
+      CP: 1885
+      U_VALUE: 0.4263
+    Gyp_Board:
+      THICKNESS: 0.012
+      CONDUCTIVITY: 0.012
+      CP: 1130
+      U_VALUE: 0.4263
+  GLAZING_CASE:
+    U_VALUE: 3.1
+    G_VALUE: 0.45
+REFURBISHMENT:
+  WALL:
+    Larch_Timber:
+      THICKNESS: 0.12
+      CONDUCTIVITY: 0.12
+      CP: 523
+      U_VALUE: 0.0824
+    Air_Gap:
+      THICKNESS: 0.13
+      CONDUCTIVITY: 0.0257
+      CP: 1005
+      U_VALUE: 0.0824
+    Insulation:
+      THICKNESS: 0.13
+      CONDUCTIVITY: 0.0288
+      CP: 837
+      U_VALUE: 0.0824
+    Glass_Wool:
+      THICKNESS: 0.04
+      CONDUCTIVITY: 0.03
+      CP: 840
+      U_VALUE: 0.0824
+    Sheathing:
+      THICKNESS: 0.022
+      CONDUCTIVITY: 0.14
+      CP: 1885
+      U_VALUE: 0.0824
+    Gyp_Board:
+      THICKNESS: 0.012
+      CONDUCTIVITY: 0.1586
+      CP: 1130
+      U_VALUE: 0.0824
+  GLAZING_CASE:
+    U_VALUE: 0.3
+    G_VALUE: 0.1875

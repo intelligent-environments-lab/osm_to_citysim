@@ -1,0 +1,55 @@
+<Building id="5" key="1" Vi="4104.77002" Ninf="0.9" BlindsLambda="0.2" BlindsIrradianceCutOff="100" Simulate="true">
+    <HeatTank V="0.01" phi="20" rho="1000" Cp="4180" Tmin="17" Tmax="35"/>
+    <CoolTank V="0.01" phi="20" rho="1000" Cp="4180" Tmin="5" Tmax="20"/>
+    <HeatSource beginDay="1" endDay="365">
+        <HeatPump Pmax="10000000" eta_tech="0.3" Ttarget="55" Tsource="ground" depth="5" alpha="0.0700000003" position="vertical" z1="10" />
+    </HeatSource>
+    <CoolSource beginDay="1" endDay="365">
+        <HeatPump Pmax="10000000" eta_tech="0.3" Ttarget="5" Tsource="ground" depth="5" alpha="0.0700000003" position="vertical" z1="10" />
+    </CoolSource>
+    <Zone id="1" volume="4104.77" psi="0.2" Tmin="17" Tmax="23" groundFloor="false" >
+        <Occupants n="41" sensibleHeat="80" sensibleHeatRadiantFraction="0.6" latentHeat="0" type="0" DHWType="0"/>
+        <Wall id="0" key="" type="456" ShortWaveReflectance="0.08" GlazingRatio="0.15" GlazingGValue="0.54" GlazingUValue="3.0" OpenableRatio="0">
+            <V0 x="563.40" y="2148.24" z="10.00"/>
+            <V1 x="563.40" y="2148.24" z="0.00"/>
+            <V2 x="562.21" y="2133.20" z="0.00"/>
+            <V3 x="562.21" y="2133.20" z="10.00"/>
+            <V4 x="563.40" y="2148.24" z="10.00"/>
+        </Wall>
+        <Wall id="1" key="" type="456" ShortWaveReflectance="0.08" GlazingRatio="0.15" GlazingGValue="0.54" GlazingUValue="3.0" OpenableRatio="0">
+            <V0 x="588.25" y="2130.89" z="10.00"/>
+            <V1 x="562.21" y="2133.20" z="10.00"/>
+            <V2 x="562.21" y="2133.20" z="0.00"/>
+            <V3 x="588.25" y="2130.89" z="0.00"/>
+            <V4 x="588.25" y="2130.89" z="10.00"/>
+        </Wall>
+        <Wall id="2" key="" type="456" ShortWaveReflectance="0.08" GlazingRatio="0.15" GlazingGValue="0.54" GlazingUValue="3.0" OpenableRatio="0">
+            <V0 x="590.22" y="2146.69" z="10.00"/>
+            <V1 x="588.25" y="2130.89" z="10.00"/>
+            <V2 x="588.25" y="2130.89" z="0.00"/>
+            <V3 x="590.22" y="2146.69" z="0.00"/>
+            <V4 x="590.22" y="2146.69" z="10.00"/>
+        </Wall>
+        <Wall id="3" key="" type="456" ShortWaveReflectance="0.08" GlazingRatio="0.15" GlazingGValue="0.54" GlazingUValue="3.0" OpenableRatio="0">
+            <V0 x="590.22" y="2146.69" z="10.00"/>
+            <V1 x="590.22" y="2146.69" z="0.00"/>
+            <V2 x="563.40" y="2148.24" z="0.00"/>
+            <V3 x="563.40" y="2148.24" z="10.00"/>
+            <V4 x="590.22" y="2146.69" z="10.00"/>
+        </Wall>
+        <Roof id="5" key="" type="453" ShortWaveReflectance="0.3" GlazingRatio="0" GlazingGValue="0" GlazingUValue="0" OpenableRatio="0" kFactor="0">
+            <V0 x="590.22" y="2146.69" z="10.00"/>
+            <V1 x="563.40" y="2148.24" z="10.00"/>
+            <V2 x="562.21" y="2133.20" z="10.00"/>
+            <V3 x="588.25" y="2130.89" z="10.00"/>
+            <V4 x="590.22" y="2146.69" z="10.00"/>
+        </Roof>
+        <Floor id="4" key="" type="450" ShortWaveReflectance="0" GlazingRatio="0" GlazingGValue="0" GlazingUValue="0" OpenableRatio="0">
+            <V0 x="590.22" y="2146.69" z="0.00"/>
+            <V1 x="588.25" y="2130.89" z="0.00"/>
+            <V2 x="562.21" y="2133.20" z="0.00"/>
+            <V3 x="563.40" y="2148.24" z="0.00"/>
+            <V4 x="590.22" y="2146.69" z="0.00"/>
+        </Floor>
+    </Zone>
+</Building>
